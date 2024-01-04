@@ -7,7 +7,7 @@ app.listen(PORT, () => {
 })
 
 app.get('/', (req, res) => {
-    res.send("Welcome")
+    res.render("index.html")
 })
 
 app.get('/ab', (req, res) => {
